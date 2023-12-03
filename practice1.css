@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: italic;
+   
+}
+#navbar{
+     height: 40px;
+     width: 99%;
+     background-color: rgb(37, 32, 32);
+     color: #FDD128;
+     text-decoration: none;
+     text-align: right;
+     position: fixed;
+     top: 0px;
+     padding: 20px 100px 10px 5px;
+     border-bottom: 3px solid #FDD128;
+}
+
+/*
+#navbar.container1{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+}*/
+a{
+    color: #FDD128;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    display: block;
+    margin: 150px 150px 150px 150px;
+    position: absolute;
+    bottom: 200px;
+    transition: all;
+    transition-duration: 2s;
+}
+h1:hover{
+    /*font-size: 80px;*/
+    transform: rotate(360deg);
+}
+.navbar-brand{
+   float: right;
+   display: none;
+}
+@media (width=492){
+    .navbar-brand{
+      display: block;
+    } 
+}
+#container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   /* background-color: #FED720;*/
+    background-image: url("image1 (21).jpg");
+    background-repeat: no-repeat;
+    background-image: cover ;
+    background-size: contain;
+}
+ #box2{
+    height: 300px;
+    width: 80%;
+    background-color: #FDD128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+    margin-left: 100px;
+    position: absolute;
+    top: 600px;
+    box-shadow: 5px 10px 10px 5px rgb(207, 203, 203);
+} 
+#box2 h4{
+    font-size: 45px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-top: 5px;
+} 
+#box2  p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+#box2 .function{
+    display: flex;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+ }
+.btn1{
+    background-color: black;
+    color: #FDD128;
+    height: 45px;
+    width: 190px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 2s ;
+    border-radius: 40px;
+}
+.btn3{
+    background-color: black;
+    color: #FDD128;
+    height: 45px;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition-duration: 2s ;
+    border-radius: 40px;
+}
+.btn1:hover{
+   
+   transform: scale(1.3);
+}
+.btn3:hover{
+    
+    transform: scale(1.3);
+ }
+.btn2{
+    background-color: black;
+    color: #FDD128;
+    height: 45px;
+    width: 170px;
+    font-size: 20px;
+    cursor: pointer;
+   position: absolute;
+   top: 480px;
+   left: 560px;
+   transition-duration: 2s ;
+   border-radius: 40px;
+}
+.btn2:hover{
+   
+    transform: scale(1.3);
+ }
+
+
+#container2{
+    margin: 140px 0px 40px 0px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#container2 .box4{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#container2 .box4 .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+   
+    background: cover;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#container2 .box4 .dream img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in;
+}img:hover{
+    transform : scale(1.1)
+}/*
+.container .popup-image{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.container .popup-image span{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+.container .popup-image span img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+@media (width:600px){
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}*/
+<!-------About Us------->
+.about-container{
+    margin: 140px 0px 40px 0px;
+    background-color: black;
+    height: 400px;
+    width: 99%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+        margin: 8px 10px 50px 10px;
+        background-color: whitesmoke;
+        height: 700px;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+}
+
+.box5 img{
+    height: 600px;
+    width: 450px;
+    background-size: cover ;
+    padding: 35px 35px 35px 35px;
+     animation: movementAnimation 6s linear 0s infinite reverse;
+}
+
+@keyFrames movementAnimation{
+    0%{right: 0px;
+    }
+    100%{left: 300px; }
+}
+.box5 #paragraph h1{
+    color: black;
+    align-items: center;
+    font-size: 50px;
+}
+
+.box5 h2{
+    align-items: left;
+    color: black;
+    padding: 0px 0px 0px 20px;
+    transition: all;
+    transition: 2s ease-in;
+    font-size: 40px;
+    animation: moveanimation 2s linear 0s infinite alternate ;
+}
+
+.box5 #paragraph p{
+    font-size: 18px;
+    color:black;
+    padding: 20px 10px 0px 20px;
+    animation: moveanimation 2s linear 0s infinite alternate ;
+}
+@keyFrames moveAnimation{
+    From{right:0px}
+    To{left: 50px; }
+}
+h2:hover{
+   text-decoration: underline;
+}
+
+.btn4{
+    background-color: black;
+    color: #FDD128;
+    height: 45px;
+    width: 160px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition-duration: 2s ;
+    border-radius: 40px;
+}
+.btn4:hover{
+    transform: scale(1.3);
+ }
+ 
+ <!-------------about us page2-------->
+ .about-container3{
+    margin: 140px 0px 40px 0px;
+    background-color: black;
+    height: 400px;
+    width: 99%;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .box6{
+   background-color: whitesmoke; 
+   width: 98%;
+   height: 650px;
+   margin: 8px 20px 40px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ #paragraph2 .h2{
+    color: black;
+    padding: 0px 0px 0px 20px;
+    transition: all;
+    transition: 2s ease-in;
+    font-size: 18px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+ }
+ .box6 img{
+    height: 600px;
+    width: 500px;
+    background-size: cover ;
+    padding: 35px 35px 35px 35px;
+    align-items: center;
+ }
+ .box6  #paragraph2 .h2{
+    color: black;
+    padding: 0px 0px 0px 20px;
+    transition: all;
+    transition: 2s ease-in;
+    font-size: 40px;
+    
+ }
+ .box6  #paragraph2  p{
+    font-size: 18px;
+    color:black;
+    padding: 15px 20px 0px 20px;
+    
+ }
+ .social{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 36px;
+    width: 36px;
+    padding: 20px 8px 8px 15px;
+ }
+ .social a{
+    height: 8px;
+    width: 8px;
+    color:  #FDD128;
+    background-color: black;
+    border-radius: 40px;
+    transition: ease-in;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px 0px 0px 0px;
+    margin-right: 4px;
+ }
+ a:hover{
+   
+    background-color: rgba(35,0,75,0.8);
+    color: white;
+    border-radius: 50px;
+    width: 20px;
+ }
+ <!----------Contact US------->
+ #container5{
+    height: 650px;
+    width: 99%;
+   
+   
+ }
+ #dream{
+    height: 750px;
+    width: 99%;
+   background-image: url("image6.jpg");
+   /*background-color: whitesmoke;*/
+   background-size: cover;
+   color: white;
+   padding-top: 75px;
+ }
+ #dream1{
+  
+   display: block;
+   
+ }
+ .contact1{
+   
+    flex-direction: column;
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+ }
+ .contact-icon{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-decoration: none;
+ }
+ .contact-icon .add{
+
+  display: inline-block;
+ }
+ #dream img{
+    height:450px;
+    width: 99%;
+    margin: 10px 10px 10px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+  #head h5{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 40px;
+    text-decoration: none;
+    padding-top: 20px;
+    transition: all;
+    transition-timing-function: ease-in;
+    
+ }
+ #head h5:hover{
+    text-decoration: underline #FDD128;
+ }
+ #head  p{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ #dream ul li a{
+      padding: 40px 40px 40px 40px;
+       font-size: 20px;
+       margin-left: 20px;
+       margin-top: 10px;
+       text-decoration: none;
+       display: flex;
+       align-items: left;
+       flex-direction: row;
+ }
+
+
+ 
+ .form {
+    float: right;
+    margin-right: 40px;
+    background-color: white;
+    color: black;
+    height: 420px;
+    width: 400px;
+    padding: 50px 50px 50px 50px;
+    font-size: 20px;
+    margin-top: 40px;
+    
+ }
+ .form #form1 {
+   /* font-size: 30px;
+    margin-top: 0px;*/
+    margin-bottom: 8px;
+    float: left;
+    
+    
+ }
+ 
+  .form #form1 h3{
+    font-size: 40px;
+    padding-top: 10px 0px 50px 0px;
+    margin-bottom: 30px;
+    display: inline;
+    
+    
+ }
+ .form #form1  p{
+    font-size: 15px;
+    padding: 40px 0px 10px 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+    
+ }
+ .socail1{
+    
+ }
+ .form  #form1 input{
+    padding: 10px  10px  10px 10px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 20px;
+    width: 250px;
+    margin-bottom: 15px;
+ }
+ #button{
+    font-size: 20px;
+    background-color: black;
+    color: #FDD128;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 275px;
+    height: 40px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+ }
+ #button:hover{
+    transform: scale(1.2);
+ }
+ @media only screen and (min-width:200px) and (max-width:567px){
+    h1{
+        font-size: 40px;
+    }
+    #container{
+       height: 450;
+    }
+    .box5 img{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+ 
